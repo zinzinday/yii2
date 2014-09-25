@@ -9,6 +9,7 @@ namespace yii\data;
 
 use Yii;
 use yii\base\InvalidConfigException;
+use yii\base\InvalidParamException;
 use yii\base\Model;
 use yii\db\Query;
 use yii\db\ActiveQuery;
@@ -48,11 +49,6 @@ use yii\db\Connection;
  * $posts = $provider->getModels();
  * ~~~
  *
- * @property integer $count The number of data models in the current page.
- * @property array $keys The list of key values corresponding to [[models]]. Each data model in [[models]]
- * @property array $models The list of data models in the current page.
- * @property integer $totalCount Total number of possible data models.
- * 
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */

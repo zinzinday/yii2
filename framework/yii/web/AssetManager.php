@@ -15,8 +15,6 @@ use yii\helpers\FileHelper;
 
 /**
  * AssetManager manages asset bundles and asset publishing.
- * 
- * @property IAssetConverter $converter The asset converter.
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
